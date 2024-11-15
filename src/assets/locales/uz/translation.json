@@ -1,0 +1,192 @@
+{
+  "navData": {
+    "mainPage": "Bosh sahifa",
+    "qualification": "Sertifikat",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "EndoMarine Kids",
+    "desc": "Bolalar organizmini me'yoriy faoliyati uchun zarur bo'lgan yod, vitaminlar, mikroelementlar, biologik faol moddalar bilan to'yintirishda yordam beruvchi multikompleks!",
+    "leftBtn": "Chegirma narxda xarid qilish",
+    "rightBtn": "Mahsulot haqida"
+  },
+  "AdverseEffects": {
+    "title": "Salbiy Oqibatlari",
+    "desc": "Yod yetishmasligining bola organizmiga salbiy ta'sirlari:",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Aqliy qobiliyat",
+        "desc": "Aqliy qobiliyatning pasayishi, pakanalik, semizlik, vaznning keskin kamayib ketishi",
+        "img_url": "/img/salbiy1.png"
+      },
+      {
+        "id": 2,
+        "title": "Qalqonsimon bez",
+        "desc": "Qalqonsimon bez faoliyatining pasayishi, buqoqning rivojlanishi",
+        "img_url": "/img/salbiy2.png"
+      },
+      {
+        "id": 3,
+        "title": "Doimiy charchoq",
+        "desc": "Doimiy charchoq, xotira buzilishi, soch to'kilishi",
+        "img_url": "/img/salbiy3.png"
+      },
+      {
+        "id": 4,
+        "title": "Gormonlarning",
+        "desc": "Gormonlarning izdan chiqishi",
+        "img_url": "/img/salbiy4.png"
+      }
+    ]
+  },
+  "VitaminDeficiency": {
+    "title": "Vitamini Yetishmasligini",
+    "desc": "Bolalarda yod, vitamin va minerallar yetishmasligini bildiruvchi belgilar",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Qalqonsimon bez faoliyati pasayishni boshlaydi",
+        "image_url": "/img/1.png"
+      },
+      {
+        "id": 2,
+        "title": "Bola darslarini o'zlashtirishda ortda qolishni boshlaydi",
+        "image_url": "/img/2.png"
+      },
+      {
+        "id": 3,
+        "title": "Bo'yi o'sishi sekinlashadi, bola semirib yoki haddan tashqari ozib ketadi",
+        "image_url": "/img/3.png"
+      },
+      {
+        "id": 4,
+        "title": "Doimiy charchoq hissi, diqqatni jamlay olmaslik, depressiya",
+        "image_url": "/img/4.png"
+      },
+      {
+        "id": 5,
+        "title": "Moddalar almashinuvi sekinlashadi",
+        "image_url": "/img/5.png"
+      },
+      {
+        "id": 6,
+        "title": "Xotirasi pasayib, beparvo bo'lib qoladi",
+        "image_url": "/img/6.png"
+      },
+      {
+        "id": 7,
+        "title": "Jismoniy faoliyatning susayish",
+        "image_url": "/img/7.png"
+      },
+      {
+        "id": 8,
+        "title": "Buqoq xastaligi rivojlanadi",
+        "image_url": "/img/8.png"
+      },
+      {
+        "id": 9,
+        "title": "Nafas olishda qiynaladi",
+        "image_url": "/img/9.png"
+      }
+    ]
+  },
+  "UsefulProperties": {
+    "title": "foydali xususiyatlari",
+    "desc": "EndoMarine kids — tarkibi ikki barobar yod, vitaminlar va minerallar bilan boyitilgan multikompleksining foydali xususiyatlari",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Feyxoa o'zida eng ko'p yod saqlovchi mahsulot bo'lib, buqoq rivojlanishining oldini oladi",
+        "image_url": "/img/1.png"
+      },
+      {
+        "id": 2,
+        "title": "Laminariya tarkibidagi B guruh vitaminlari miya hujayralarini kislorod bilan to'yintiradi",
+        "image_url": "/img/2.png"
+      },
+      {
+        "id": 3,
+        "title": "Feyxoa tarkibidagi C vitamini ishtahani ochadi",
+        "image_url": "/img/3.png"
+      },
+      {
+        "id": 4,
+        "title": "Laminariya 40% organik yodga to'yingan bo'lib, miya faoliyatini yaxshilaydi",
+        "image_url": "/img/4.png"
+      },
+      {
+        "id": 5,
+        "title": "B12, K vitamini, feyxoadagi temir, sink moddasi gemoglobinni ko'tarishga yordam beradi",
+        "image_url": "/img/5.png"
+      },
+      {
+        "id": 6,
+        "title": "Feyxoadagi D, C, E vitaminlari immunitetni mustahkamlaydi",
+        "image_url": "/img/6.png"
+      },
+      {
+        "id": 7,
+        "title": "Antibakterial ta'siri virusli kasalliklardan himoyalanishda ta'sir o'tkazadi",
+        "image_url": "/img/7.png"
+      },
+      {
+        "id": 8,
+        "title": "Oshqozon-ichak faoliyatini sog'lomlashtiradi",
+        "image_url": "/img/8.png"
+      },
+      {
+        "id": 9,
+        "title": "Bolalardagi nevrologik muammolarni bartaraf etishda yordam beradi",
+        "image_url": "/img/8.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Chegirma narxida xarid qiling",
+    "desc": "Mutaxassisdan maslahat olish uchun belgi qoldiring va 20% gacha  chegirmani qo'lga kiriting",
+    "inputNamePlaceholder": "Sizning ismingiz",
+    "btn": "Murojaat qiling"
+  },
+  "ProductContent": {
+    "title": "EndoMarine kids multikompleksining tarkibi",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Feyxoa",
+        "desc": "Feyxoa — o'zida eng yod saqlaydigan meva hisoblanadi. Buqoqni oldini olishda, aqliy qobiliyatni yaxshilashda yordam beradi. Oshqozon-ichak faoliyatini sog'lomlashtiradi. Markaziy asab sistemasini rag'batlantiradi. Immunitetni ko'taradi."
+      },
+      {
+        "id": 2,
+        "title": "Laminariya Angustati",
+        "desc": "Tarkibida 40% organik yodga ega, shifobaxsh dengiz o'ti. Miyani oziqlantiradi, kunlik yod balansini to'ldiradi. Allergenlar rivojlanishini oldini oladi. Kalsiy yetishmovchiligi xastaliklarida yordam beradi. Gemoglobinni oshiruvchi, immunomodulyator xususiyatiga ega."
+      },
+      {
+        "id": 3,
+        "title": "Pektin",
+        "desc": "Yurak va qon tomir kasalliklarini rivojlanish xavfini kamaytirish. Tanani og'ir metallar, tuzlar, radionuklidlar, ortiqcha xolestirin va organizmda to'plangan zararli moddalarni tozalashda ishtirok etadi."
+      },
+      {
+        "id": 4,
+        "title": "Olma sharbatining kukuni",
+        "desc": "Moddalar almashinuvini tezlashtiradi, qalqonsimon bez faoliyatini yaxshilashda samara beradi. Asab tizimini mustahkamlaydi. Gemoglobinni ko'taradi va biologik faol moddalar bilan ta'minlaydi."
+      }
+    ]
+  },
+  "Recommendation": {
+    "title": "Mutaxassislar tavsiyalari",
+    "arrayData": [
+      { "id": 1, "youtube_id": "TWs5PQaG2pw" },
+      { "id": 2, "youtube_id": "u_BF8DatMk8" },
+      { "id": 3, "youtube_id": "u_BF8DatMk8" },
+      { "id": 4, "youtube_id": "u_BF8DatMk8" },
+      { "id": 5, "youtube_id": "u_BF8DatMk8" }
+    ]
+  },
+  "Qualifications": {
+    "title": "Sertifikatlar"
+  },
+  "Opinions": {
+    "title": "Mijozlarimiz fikrlari"
+  }
+}

@@ -1,0 +1,101 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  theme: {
+    extend: {
+      height: {
+        45: "45px",
+        60: "60px",
+        70: "70px",
+        100: "100px",
+        250: "250px",
+        280: "280px",
+        300: "300px",
+        400: "400px",
+        500: "500px",
+        955: "955px",
+      },
+      width: {
+        48: "48%",
+        45: "45px",
+        65: "65%",
+        90: "90px",
+        85: "85%",
+        100: "100%",
+        150: "150%",
+        142: "142px",
+        200: "200px",
+        230: "230px",
+        420: "420px",
+        470: "470px",
+        700: "700px",
+      },
+      margin: {
+        70: "70px",
+        35: "35px",
+        50: "50px",
+        100: "100px",
+        125: "125px",
+        150: "150px",
+        230: "230px",
+        272: "272px",
+        410: "410px",
+      },
+      padding: {
+        15: "15px",
+        25: "25px",
+        30: "30px",
+        70: "70px",
+        80: "80px",
+        120: "120px",
+        140: "140px",
+        230: "230px",
+      },
+      lineHeight: {
+        25: "25px",
+        50: "50px",
+        90: "90px",
+      },
+      minHeight: {
+        955: "955px",
+        1100: "1100px",
+        1200: "1200px",
+        1280: "1280px",
+        1400: "1400px",
+        1750: "1750px",
+      },
+      minWidth: {
+        260: "260px",
+        1200: "1200px",
+      },
+      borderRadius: {
+        27: "27.5px",
+        36: "36px",
+        54: "54px",
+      },
+      textColor: {
+        white: "#FFFFFF",
+        primary: "#16626D",
+        secColor: "#005461",
+        navColor: "#BEBEBE",
+      },
+      fontSize: {
+        42: "42px",
+        26: "26px",
+      },
+      borderWidth: {
+        3: "3px",
+      },
+      backgroundColor: {
+        mainColor: "#005461",
+        secondaryColor: "#FFBE73",
+        thirdBackground:
+          "linear-gradient(94.81deg, #6A35FF -13.38%, #9772FE 101.22%)",
+        fourthBackground:
+          "linear-gradient(96.01deg, #00FFF0 -35.44%, #F8FFA8 125.39%)",
+        navHoverBackground: "#E4F0F2",
+      },
+    },
+  },
+  plugins: [],
+};

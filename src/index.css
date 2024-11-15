@@ -1,0 +1,492 @@
+@import url("./assets/fonts/gilroy.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 700;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #703DFF;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: hsla(220, 8%, 70%, 0.678);
+  border-radius: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bg-thirdBackground {
+  background: linear-gradient(94.81deg, #6A35FF -13.38%, #9772FE 101.22%)
+}
+
+.font_bold {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+}
+
+.font_extrabold {
+  font-family: "Gilroy";
+  font-weight: 800;
+}
+
+p {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+}
+
+
+
+h1 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Gilroy Black", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Gilroy";
+  font-weight: bold;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("./assets/img/Vector.png");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 50%;
+  margin-right: 2rem;
+  padding-right: 2rem;
+}
+
+.css-13cymwt-control {
+  background-color: transparent !important;
+  border: none !important;
+
+}
+
+.css-1hb7zxy-IndicatorsContainer {
+  display: none !important;
+}
+
+.css-j5q926-control {
+  border: none !important;
+}
+
+.css-1nmdiq5-menu {
+  background: transparent !important;
+}
+
+.css-e8gvt0-control {
+  border: transparent !important;
+}
+
+.css-5l9yw5-control {
+  border: transparent !important;
+}
+
+.bg-thirdBackground {
+  background: linear-gradient(94.81deg, #6A35FF -13.38%, #9772FE 101.22%)
+}
+
+.btn-radius {
+  border-radius: 35px 5px
+}
+
+.hero {
+  background: url('./assets/img/hero-background.png');
+  height: 770px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+.right-arrow {
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  background: url('./assets/img/right-arrow-icon.svg');
+}
+
+.exclamation-mark {
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  background: url('./assets/img/exclamation-mark.svg');
+}
+
+.bg-fourthBackground {
+  background: linear-gradient(96.01deg, #00FFF0 -35.44%, #F8FFA8 125.39%);
+}
+
+
+.adverse_effects_bg {
+  background: #FFBE73;
+
+}
+
+.adverse_effects_bg_top {
+  background: url("./assets/img/adverse_effects_bg_top.png");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.adverse_effects_bg_bottom {
+  background: url("./assets/img/adverse_effects_bg_bottom.png");
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.adverse_card {
+  transition: 0.3s all;
+  border: 3px solid #FFBE73;
+}
+
+.adverse_card:hover {
+  background: linear-gradient(94.81deg, #6A35FF -13.38%, #9772FE 101.22%);
+  border: 3px solid white;
+}
+
+.vitamin_sec_card {
+  background: white;
+  border: 3px solid white;
+}
+
+.vitamin_sec_card:hover {
+  background: linear-gradient(96.01deg, #00FFF0 -35.44%, #F8FFA8 125.39%);
+}
+
+.useful_properties_bg {
+  background: #FFBE73;
+  width: 100%;
+}
+
+.useful_properties_top {
+  background: url('./assets/img/useful_properties_top.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.useful_properties_bottom {
+  background: url('./assets/img/useful_properties_bottom.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.useful_proprties_right {
+  background-color: #ffffff33;
+}
+
+.discount_input_div {
+  background: #11707E;
+  border: 2px solid rgba(255, 255, 255, 0.6)
+}
+
+.discount_input_left::placeholder {
+  color: white !important;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.product-content_bg {
+  background: #EEEEE6;
+  width: 100%;
+}
+
+.product-content_top {
+  background: url('./assets/img/product-content_top.png');
+  width: 100%;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-content_bottom {
+  background: url('./assets/img/product-content_bottom.png');
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.min-h-1200 {
+  min-height: 1200px;
+}
+
+.product_content_box {
+  background: linear-gradient(94.81deg, #6A35FF -13.38%, #9772FE 101.22%);
+}
+
+.product_box_border {
+  border-radius: 90px 30px;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.min-h-260 {
+  min-width: 262px;
+
+}
+
+.product_right_content {
+  background: #ffffff1f;
+  border-radius: 35px 5px;
+}
+
+.qualifications_bg {
+  width: 100%;
+  background: #EEEEE6;
+}
+
+.qualifications_bg_top {
+  background: url('./assets/img/qualification-bg_top.png');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qualifications_bg_bottom {
+  background: url('./assets/img/qualification-bg_bottom.png');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.min-h-770 {
+  min-height: 770px;
+}
+
+.contact_bg_white_top {
+  background: url('./assets/img/contact_bg_white_top.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.contact_bg_white {
+  background: #EEEEE6;
+}
+
+.bg-pink {
+  background: linear-gradient(180deg, #FD5B70 0%, #FA4453 100%) !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.bg-pink>img {
+  width: 10px !important;
+}
+
+.border-90 {
+  border: 3px solid white;
+  border-radius: 90px;
+}
+
+.border-7 {
+  border: 3 px solid transparent;
+  border-radius: 7px;
+}
+
+
+.w-70pp {
+  width: 70% !important;
+}
+
+.nav_fixed {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  visibility: hidden;
+  transition: 0.3s all;
+}
+
+.nav_fixed-active {
+  display: flex !important;
+  visibility: visible;
+  top: 70px;
+}
+
+.btn-radius-nav {
+  border-radius: 22.5px 5px
+}
+
+.btn-radius-nav-btn {
+  border-radius: 22.5px 5px
+}
+
+.top-100 {
+  top: 100px;
+}
+
+.top-70 {
+  top: 70px;
+}
+
+.modal_product {
+  backdrop-filter: blur(5px);
+}
+
+.w-90p {
+  width: 90%;
+}
+
+.img_modal {
+  background: rgba(0, 0, 0, 0.781);
+}
+
+.recommendation_iframe {
+  position: relative;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 75%;
+  border: none;
+}
+
+.responsive-iframe-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-width: 1300px) {
+  .adverse_card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 900px) {
+  .adverse_card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vitamin_sec_card {
+    width: 100%;
+  }
+
+  .useful_properties {
+    background-position-x: 50%;
+  }
+
+  .nav-select {
+    margin-right: -10px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .navbar_call_btn {
+    display: none;
+  }
+
+  .nav-select {
+    background: none;
+    width: 100px;
+  }
+
+  .adverse_card {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: 250%;
+    background-position: right;
+    background-position-x: 74%;
+  }
+
+  .product_right_content {
+    border-radius: 10px;
+  }
+
+  .responsive-iframe-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .useful_proprties_right {
+    border-radius: 54px;
+  }
+
+  .bg-pink {
+    background: linear-gradient(180deg, #FD5B70 0%, #FA4453 100%) !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .bg-pink>img {
+    width: 6px !important;
+  }
+
+  .responsive-iframe {
+    top: 100%;
+  }
+
+  .responsive-iframe-btn {
+    top: 10%;
+  }
+
+}
+
+.modal_contact {
+  background: #116f7ec5;
+}
